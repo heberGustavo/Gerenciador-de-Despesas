@@ -20,6 +20,7 @@
     <Import Project="$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\SuporteSQ-06\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\SuporteSQ-06\.nuget\packages\microsoft.entityframeworkcore.tools\3.1.7</PkgMicrosoft_EntityFrameworkCore_Tools>
     <PkgEntityFramework_Commands Condition=" '$(PkgEntityFramework_Commands)' == '' ">C:\Users\SuporteSQ-06\.nuget\packages\entityframework.commands\7.0.0-rc1-final</PkgEntityFramework_Commands>
     <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\SuporteSQ-06\.nuget\packages\entityframework\6.4.4</PkgEntityFramework>
