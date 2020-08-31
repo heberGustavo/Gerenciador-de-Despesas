@@ -455,3 +455,6 @@ C:\Users\SuporteSQ-06\Desktop\projetos_heber\Git\GerenciadorDeDespesas\Gerenciad
 C:\Users\SuporteSQ-06\Desktop\projetos_heber\Git\GerenciadorDeDespesas\GerenciadorDespesas\GerenciadorDespesas\obj\Debug\netcoreapp3.1\GerenciadorDespesas.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\SuporteSQ-06\Desktop\projetos_heber\Git\GerenciadorDeDespesas\GerenciadorDespesas\GerenciadorDespesas\obj\Debug\netcoreapp3.1\GerenciadorDespesas.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\SuporteSQ-06\Desktop\projetos_heber\Git\GerenciadorDeDespesas\GerenciadorDespesas\GerenciadorDespesas\obj\Debug\netcoreapp3.1\GerenciadorDespesas.csprojAssemblyReference.cache
+C:\Users\SuporteSQ-06\Desktop\projetos_heber\Git\GerenciadorDeDespesas\GerenciadorDespesas\GerenciadorDespesas\obj\Debug\netcoreapp3.1\Razor\Views\Salarios\Create.cshtml.g.cs
+C:\Users\SuporteSQ-06\Desktop\projetos_heber\Git\GerenciadorDeDespesas\GerenciadorDespesas\GerenciadorDespesas\obj\Debug\netcoreapp3.1\Razor\Views\Salarios\Edit.cshtml.g.cs
+C:\Users\SuporteSQ-06\Desktop\projetos_heber\Git\GerenciadorDeDespesas\GerenciadorDespesas\GerenciadorDespesas\obj\Debug\netcoreapp3.1\Razor\Views\Salarios\Index.cshtml.g.cs
