@@ -41,6 +41,27 @@ namespace GerenciadorDespesas.Controllers
             return Json(true);
         }
 
+        public JsonResult AdicionarTipoDespesa(string txtDespesa)
+        {
+            if (!String.IsNullOrEmpty(txtDespesa))
+            {
+                //Verifica se já tem cadastrado
+                if (!_context.TipoDespesas.Any(td => td.Nome.ToUpper() == txtDespesa.ToUpper()))
+                {
+                    TipoDespesa tipoDespesa = new TipoDespesa();
+                    tipoDespesa.Nome = txtDespesa;
+                    _context.Add(tipoDespesa);
+                    _context.SaveChanges();
+
+                    return Json(true);
+                }
+                else
+                    return Json(false);
+            }
+            else
+                return Json(false);
+        }
+
         // GET: TipoDespesas/Create
         public IActionResult Create()
         {
