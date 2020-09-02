@@ -30,6 +30,10 @@
         <div class="col">
             <partial name="_GastoTotalMes"/>
         </div>
+
+        <div class="col">
+            <partial name="_GastoMes" />
+        </div>
     </div>
 
     <table class="table table-hover">
@@ -91,7 +95,15 @@
 </div>
 
 @section Scripts{
+    <script src="~/js/GraficoGastoTotalMes.js"></script>
+
+    <script src="~/js/GraficoGastoMes.js"></script>
+    <script src="~/js/MetodosGerais.js"></script>
+
     <script>
+
+        CarregarDadosGastosMes();
+        CarregarDadosGastosTotalMes(); 
         function ExibirModal(id) {
 
             $(".modal").modal();

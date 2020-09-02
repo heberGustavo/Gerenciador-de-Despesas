@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GerenciadorDespesas.Models;
 using X.PagedList;
+using GerenciadorDespesas.ViewModels;
 
 namespace GerenciadorDespesas.Controllers
 {
@@ -135,6 +136,17 @@ namespace GerenciadorDespesas.Controllers
         private bool DespesaExists(int id)
         {
             return _context.Despesas.Any(e => e.DespesaId == id);
+        }
+
+        public JsonResult GastosTotalMes(int mesId)
+        {
+            GastosTotaisMesViewModel gastos = new GastosTotaisMesViewModel();
+
+            gastos.ValorTotalGasto = _context.Despesas.Where(d => d.Mes.MesId == mesId).Sum(d => d.Valor);
+                                                                                //Seleciona o primeiro valor
+            gastos.Salario = _context.Salarios.Where(s => s.Meses.MesId == mesId).Select(s => s.Valor).FirstOrDefault();
+
+            return Json(gastos);
         }
     }
 }
