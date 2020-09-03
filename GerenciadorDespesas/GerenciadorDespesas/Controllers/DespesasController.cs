@@ -148,5 +148,20 @@ namespace GerenciadorDespesas.Controllers
 
             return Json(gastos);
         }
+
+        public JsonResult GastoMes(int mesId)
+        {
+            var query = from despesas in _context.Despesas
+                        where despesas.Mes.MesId == mesId
+                        group despesas by despesas.TipoDespesa.Nome into g
+                        select new
+                        {
+                            //Pega pelo nome da despesa
+                            TiposDespesas = g.Key,
+                            Valores = g.Sum(d => d.Valor)
+                        };
+
+            return Json(query);
+        }
     }
 }
