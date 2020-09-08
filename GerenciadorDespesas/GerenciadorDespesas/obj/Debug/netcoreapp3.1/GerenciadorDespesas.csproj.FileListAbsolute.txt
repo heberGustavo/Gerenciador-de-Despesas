@@ -464,3 +464,4 @@ C:\Users\SuporteSQ-06\Desktop\projetos_heber\Git\GerenciadorDeDespesas\Gerenciad
 C:\Users\SuporteSQ-06\Desktop\projetos_heber\Git\GerenciadorDeDespesas\GerenciadorDespesas\GerenciadorDespesas\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_GastoTotalMes.cshtml.g.cs
 C:\Users\SuporteSQ-06\Desktop\projetos_heber\Git\GerenciadorDeDespesas\GerenciadorDespesas\GerenciadorDespesas\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_GastoMes.cshtml.g.cs
 C:\Users\SuporteSQ-06\Desktop\projetos_heber\Git\GerenciadorDeDespesas\GerenciadorDespesas\GerenciadorDespesas\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_GastosTotais.cshtml.g.cs
+C:\Users\SuporteSQ-06\Desktop\projetos_heber\Git\GerenciadorDeDespesas\GerenciadorDespesas\GerenciadorDespesas\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Estatistica\Default.cshtml.g.cs
