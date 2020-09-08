@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ooLmRkMsrv1upm9rU1zACoSHpKVST3vlWAJScfpjvYk06pQ1VpYHNWQ3o/Y0uoIJF27GKms0iHcz6lShsRXTNw==",
+  "dgSpecHash": "osx+wp271i6Xr8YVUUiDEgsz2HqB58hYQ8THTabtURpn6sAY2Gn6Adf8zspRtSQA0P0OLJjj1grYHxAl9FfMJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\SuporteSQ-06\\Desktop\\projetos_heber\\Git\\GerenciadorDeDespesas\\GerenciadorDespesas\\GerenciadorDespesas\\GerenciadorDespesas.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SuporteSQ-06\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\SuporteSQ-06\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\SuporteSQ-06\\.nuget\\packages\\entityframework.commands\\7.0.0-rc1-final\\entityframework.commands.7.0.0-rc1-final.nupkg.sha512",
     "C:\\Users\\SuporteSQ-06\\.nuget\\packages\\entityframework.microsoftsqlserver\\7.0.0-rc1-final\\entityframework.microsoftsqlserver.7.0.0-rc1-final.nupkg.sha512",

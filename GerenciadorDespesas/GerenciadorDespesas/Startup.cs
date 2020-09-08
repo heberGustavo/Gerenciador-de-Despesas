@@ -55,7 +55,7 @@ namespace GerenciadorDespesas
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=TipoDespesas}/{action=Index}/{id?}");
+                    pattern: "{controller=Despesas}/{action=Index}/{id?}");
             });
         }
     }
